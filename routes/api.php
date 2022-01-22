@@ -18,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::post('/login',api_controler::class,'login');
+
+
+
+Route::post('/test',api_controler::class,'login');
